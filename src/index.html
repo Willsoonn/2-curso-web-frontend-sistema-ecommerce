@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrinho de Compras</title>
+    <title>Carrinho de compras</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Carrinho de Compras Online</h1>
-    <p>Simule um carrinho de compras adicionando produtos, visualizando o total e gerenciando seu orçamento.</p>
-    <p>As interações serão feitas por meio de <strong>prompt()</strong> para entrada de dados e <strong>alert()</strong>
-        para exibição das informações.</p>
 
-    <script src="./index.js"></script> <!-- Conectado ao arquivo index.js -->
+<div class="modal">
+  <div class="modal-header">
+    <h2>Seu carrinho tem <strong>5 itens</strong></h2>
+    <button class="close-btn"> X </button>
+  </div>
+
+  <div class="modal-content">
+    
+    <div class="item">
+        <p class="img">
+          <img src="https://via.placeholder.com/50" alt="Item Image">
+        </p>
+    </div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    
+  </div>
+
+  <div class="modal-footer">
+    <div class="txt-total">
+      <span>Total:</span>
+      <span class="preco">R$ 500,00</span>
+    </div>
+    <button class="btn">Finalizar compra</button>
+  </div>
+</div>
+    
 </body>
-
 </html>

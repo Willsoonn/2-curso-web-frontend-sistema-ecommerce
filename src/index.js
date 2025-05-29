@@ -12,7 +12,7 @@ let maisProdutos
 
 do{
   const produtosEscolhidos = prompt('Qual produto você deseja comprar? (Camisa, Calça, Sapato ou Boné)');
-  // Verifica se o produto escolhido está disponível
+  //Verifica se o produto escolhido está disponível
 
   for (let i = 0; i < produtosDisponiveis.length; i++) {
     if (produtosEscolhidos === produtosDisponiveis[i].nome) {
